@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logoname h2{
+    color: antiquewhite;
+    
+
+}
+
+
+header{
+    width: 100%;
+    background-color:black;
+    padding: 25px;
+    position: absolute;
+    top: 0;
+}
+
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logopng{
+    position: absolute;
+    height: 50px;
+    left: 0px;
+    
+    
+
+    
+}
+
+.logoh3{
+
+    color: aliceblue;
+}
+
+header a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: antiquewhite;
+    font-family: tahoma;
+
+}
+
+.banner-container{
+    margin-top: 80px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.banner-container .container{
+    display: flex;
+    
+}
+
+.formhead{
+    color:rgb(243, 234, 234);
+    letter-spacing: 2px;
+    font-family: tahoma;
+}
+
+
+.formtag{
+    width: 600px;
+    height: 450px;
+    margin: 60px ;
+    background: rgba(156, 106, 106, 0.251);
+    text-align: center;
+    padding: 35px;
+    border: 3px solid rgb(223, 222, 216);
+    border-radius: 70px 0 70px 0;
+
+}
+
+input{
+    text-align: center;
+    font-family: 'Lucida Sans';
+    width: 250px;
+    height: 30px;
+    
+}
+
+
+
